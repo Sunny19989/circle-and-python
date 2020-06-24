@@ -1,0 +1,25 @@
+CIRCLE CODE
+INPUT
+
+import math
+x=eval(input("enter the radious"))
+y=(math.pi*x**2)
+print("the area of the circle is=  ",y)
+
+OUTPUT
+enter the radious1.1
+the area of the circle is=   3.8013271108436504
+
+
+FILE EXTENSION CODE
+
+y=input("Enter the file name=")
+x=y.split(".")
+dic={"py": "Python","txt":"Text","html":"Hyper Text Markup Language"}
+if x[1] in dic:
+    print("The extension=",dic[x[1]])
+    
+ OUTPUT
+ Enter the file name=abc.py
+The extension=== Python
+ 
